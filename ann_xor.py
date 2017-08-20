@@ -11,7 +11,6 @@ model.add(Dense(1, input_dim = 2))
 model.summary()
 
 
-# In[22]:
 
 X_train = [[0,0], [0,1], [1,0], [1,1]]
 y_train = [0, 1, 1, 0] #XOR
@@ -24,9 +23,6 @@ epoch = 10
 model.fit(X_train, y_train, epochs=epoch, verbose=0)
 score = model.evaluate(X_train, y_train)
 print(score)    
-
-
-# In[ ]:
 
 
 
