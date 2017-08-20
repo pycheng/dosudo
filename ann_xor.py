@@ -1,8 +1,3 @@
-
-# coding: utf-8
-
-# In[1]:
-
 from keras.datasets import mnist
 from keras.layers import Dense
 from keras.models import Sequential
